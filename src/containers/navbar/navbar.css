@@ -1,0 +1,64 @@
+.po__navbar {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 8rem;
+  color: var(--basic-light-gray, #c5c5c5);
+  font-family: Inter;
+}
+
+.po__navbar-links {
+  display: flex;
+  width: 990px;
+  height: 60px;
+  padding: 10px 36px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: rgba(36, 36, 43, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+.po__navbar-links__components {
+  color: var(--basic-light-gray, #c5c5c5);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  /* cursor: pointer; */
+}
+
+.po__navbar-links__components p a:hover {
+  color: #dfdfdf;
+}
+
+.po__navbar-links__ids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  opacity: 0.7;
+  /* border-left: 1px solid #ffffff; */
+  border-right: 1px solid #ffffff;
+  border-width: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.po__navbar-links__ids-linkedIn {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.po__navbar-links__ids-github {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
