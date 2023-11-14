@@ -4,6 +4,8 @@ import  Navbar  from './containers/navbar/Navbar';
 import  Main  from './containers/main/Main' 
 import  About from './containers/about/About'
 import  Project from './containers/projects/Projects'
+import Contact from './containers/contact/Contact';
+import Footer from './containers/footer/Footer';
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
       <Main/>
       <About/>
       <Project/>
-      contact
-      footer
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
