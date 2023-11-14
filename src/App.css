@@ -11,7 +11,7 @@ body {
 
 .App {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   max-width: 1400px;
   overflow-x: hidden;
 }
@@ -21,8 +21,8 @@ a {
   /* text-decoration: none; */
 }
 
-/* 
-  @media screen and (max-width: 700px) {
+
+  /* @media screen and (max-width: 700px) {
       .section__padding {
           padding: 4rem;
         }
