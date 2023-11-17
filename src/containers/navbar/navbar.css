@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
-  opacity: 0.7;
+  /* opacity: 0.75; */
   /* border-left: 1px solid #ffffff; */
   border-right: 1px solid #ffffff;
   border-width: 1px;
@@ -55,10 +55,12 @@
   width: 22px;
   height: 22px;
   flex-shrink: 0;
+  opacity: 0.85;
 }
 
 .po__navbar-links__ids-github {
   width: 22px;
   height: 22px;
   flex-shrink: 0;
+  opacity: 0.85;
 }
