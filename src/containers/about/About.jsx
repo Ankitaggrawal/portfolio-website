@@ -11,7 +11,7 @@ import pin from "../../assets/pngwing.com (1).png";
 
 const About = () => {
   return (
-    <div className="po__about">
+    <div className="po__about" id="about">
       <div className="po__about-techstack">
         <div className="po__about-techstack__name">
           <p>Tech Stack</p>

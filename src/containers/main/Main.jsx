@@ -4,7 +4,7 @@ import vector from "../../assets/Vector.png";
 
 const main = () => {
   return (
-    <div className="po__main">
+    <div className="po__main" id="home">
 
       <div className="po__main-text">
         <p className="po__main-heading">
@@ -15,7 +15,9 @@ const main = () => {
         </p>
         <div className="po__main-buttons">
           <button>See my Resume</button>
-          <button>Get in touch</button>
+          <button>
+          <a href="#contact">Get in touch</a>
+          </button>
         </div>
       </div>
 

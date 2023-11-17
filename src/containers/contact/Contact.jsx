@@ -4,7 +4,7 @@ import email from '../../assets/email.png'
 
 const Contact = () => {
   return (
-    <div className="po__contact">
+    <div className="po__contact" id='contact'>
         <div className="po__contact-text">
             <p>LET<span>'</span>S W<span>O</span>RK T<span>O</span>GETHER</p>
         </div>

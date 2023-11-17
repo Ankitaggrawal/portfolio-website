@@ -11,7 +11,7 @@ import banking from "../../assets/banking.png";
 
 const Projects = () => {
   return (
-    <div className="po__projects">
+    <div className="po__projects" id="projects">
       <div className="po__projects-head">
         <div className="po__projects-head__heading">Projects</div>
         <div className="po__projects-head__subheading">
