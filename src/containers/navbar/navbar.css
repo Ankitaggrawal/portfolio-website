@@ -112,7 +112,10 @@
   .po__navbar-links {
     width: 680px;
     padding: 10px 36px;
+    height: 52px;
   }
+
+  
 }
 
 @media screen and (max-width: 710px) {
