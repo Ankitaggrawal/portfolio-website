@@ -147,7 +147,7 @@
   letter-spacing: -0.34px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 850px) {
   .po__about-aboutme {
     display: flex;
     flex-direction: column;
@@ -161,6 +161,11 @@
     padding-left: 8px;
   }
 
+  .po__about-aboutme__catty img {
+    width: 170px;
+    height: 200px;
+  }
+
   .po__about-aboutme__text {
     justify-content: center;
     align-items: center;
@@ -172,6 +177,20 @@
     font-weight: 800;
     line-height: normal;
     padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .po__about-techstack {
+    width: 600px;
+  }
+
+  .po__about-techstack__name {
+    padding-right: 25px;
+  }
+
+  .po__about-techstack__tools {
+    gap: 15px;
   }
 }
 
@@ -214,13 +233,18 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 
   .po__about-aboutme__catty {
-    width: 170px;
-    height: 200px;
+    width: 100px;
+    height: 125px;
     padding-left: 8px;
+  }
+
+  .po__about-aboutme__catty img {
+    width: 107px;
+    height: 125px;
   }
 
   .po__about-aboutme__text {
@@ -230,9 +254,48 @@
 
   .po__about-aboutme__text-heading {
     color: var(--basic-dark-gray, #9a9a9a);
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 800;
     line-height: normal;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
+  }
+
+  .po__about-aboutme__text-subheading {
+    padding-top: 16px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 80px;
+    display: flex;
+  }
+
+  .po__about-aboutme__text-subheading p {
+    width: 330px;
+    height: 50px;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0px;
+  }
+
+  .po__about-aboutme__text-subheading p img {
+    transform: translateY(12px);
+    flex-shrink: 0;
+    width: 40px;
+    height: 32px;
+  }
+
+  .po__about-aboutme__text-dec {
+    width: 330px;
+    height: auto;
+    flex-shrink: 0;
+    color: #808080;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.34px;
+    text-align: justify;
   }
 }

@@ -479,7 +479,7 @@
 @media screen and (max-width: 376px) {
   
   .po__main {
-    padding: 7rem 5rem 25rem 1rem;
+    padding: 7rem 5rem 0rem 1rem;
   }
 
   
