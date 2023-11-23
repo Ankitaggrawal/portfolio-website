@@ -23,8 +23,9 @@
 }
 
 .po__contact-text p span {
-    color: #515151;
+  color: #515151;
 }
+
 .po__contact-links {
   display: flex;
   justify-content: center;
@@ -34,7 +35,7 @@
   width: 100px;
 }
 
-.po__contact-links__email{
+.po__contact-links__email {
   padding-top: 30px;
   display: flex;
   justify-content: center;
@@ -48,13 +49,13 @@
 }
 
 .po__contact-links__email :hover {
- color: #737373;
+  color: #737373;
 }
 
 .po__contact-links__email a {
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .po__contact-links__email img {
@@ -70,4 +71,52 @@
   font-weight: 400;
   line-height: normal;
   text-align: center;
+}
+
+@media screen and (max-width: 710px) {
+  .po__contact {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .po__contact-text {
+    font-size: 40px;
+  }
+
+  .po__contact-links__email {
+    padding-top: 20px;
+  }
+
+  .po__contact-links__email img {
+    height: 15px;
+  }
+  
+  .po__contact-links__email p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .po__contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .po__contact-text {
+    font-size: 25px;
+  }
+
+  .po__contact-links__email {
+    padding-top: 15px;
+  }
+
+  .po__contact-links__email img {
+    height: 13px;
+  }
+  
+  .po__contact-links__email p {
+    font-size: 11px;
+    font-weight: 300;
+  }
 }
