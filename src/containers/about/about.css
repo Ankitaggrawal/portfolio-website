@@ -104,7 +104,6 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  
 }
 
 .po__about-aboutme__text-subheading {
@@ -125,7 +124,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 10px;
-
 }
 
 .po__about-aboutme__text-subheading p img {
@@ -147,4 +145,94 @@
   font-weight: 300;
   line-height: normal;
   letter-spacing: -0.34px;
+}
+
+@media screen and (max-width: 780px) {
+  .po__about-aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 8rem;
+  }
+
+  .po__about-aboutme__catty {
+    width: 170px;
+    height: 200px;
+    padding-left: 8px;
+  }
+
+  .po__about-aboutme__text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .po__about-aboutme__text-heading {
+    color: var(--basic-dark-gray, #9a9a9a);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .po__about {
+    padding-top: 0rem;
+  }
+
+  .po__about-techstack {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 300px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .po__about-techstack__name {
+    font-size: 22px;
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 15px;
+  }
+
+  .po__about-techstack__tools {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+  }
+
+  .po__about-aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 8rem;
+  }
+
+  .po__about-aboutme__catty {
+    width: 170px;
+    height: 200px;
+    padding-left: 8px;
+  }
+
+  .po__about-aboutme__text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .po__about-aboutme__text-heading {
+    color: var(--basic-dark-gray, #9a9a9a);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 15px;
+  }
 }
