@@ -8,7 +8,6 @@ import realstate from "../../assets/realstate.png";
 import restaurant from "../../assets/restaurant.png";
 import banking from "../../assets/banking.png";
 
-
 const Projects = () => {
   return (
     <div className="po__projects" id="projects">
@@ -48,12 +47,11 @@ const Projects = () => {
           </div>
         </div>
 
-
         <div
           className="po__projects-cards__projectcard"
           id="po__projects-card2"
         >
-                    <div className="po__projects-cards__projectcard-img">
+          <div className="po__projects-cards__projectcard-img">
             <img src={realstate} alt="realstate" />
           </div>
           <div className="po__projects-cards__projectcard-text">
@@ -78,17 +76,16 @@ const Projects = () => {
           </div>
         </div>
 
-
         <div
           className="po__projects-cards__projectcard"
           id="po__projects-card3"
         >
-                    <div className="po__projects-cards__projectcard-img">
+          <div className="po__projects-cards__projectcard-img">
             <img src={restaurant} alt="restaurant" />
           </div>
           <div className="po__projects-cards__projectcard-text">
             <div className="po__projects-cards__projectcard-text__heading">
-            RESTAURANT
+              RESTAURANT
             </div>
             <div className="po__projects-cards__projectcard-text__subheading">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -108,12 +105,11 @@ const Projects = () => {
           </div>
         </div>
 
-
         <div
           className="po__projects-cards__projectcard"
           id="po__projects-card4"
         >
-                    <div className="po__projects-cards__projectcard-img">
+          <div className="po__projects-cards__projectcard-img">
             <img src={banking} alt="banking" />
           </div>
           <div className="po__projects-cards__projectcard-text">
@@ -137,8 +133,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   );
