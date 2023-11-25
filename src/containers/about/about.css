@@ -196,7 +196,8 @@
 
 @media screen and (max-width: 465px) {
   .po__about {
-    padding-top: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
   }
 
   .po__about-techstack {

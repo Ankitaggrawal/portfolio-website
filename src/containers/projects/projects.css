@@ -27,7 +27,7 @@
 }
 
 .po__projects-head__subheading {
-  width: 732px;
+  /* width: 732px; */
   color: var(--basic-medium-gray, rgba(128, 128, 128, 0.5));
   font-family: Inter;
   font-size: 19px;
@@ -172,10 +172,7 @@
   height: 15px;
 }
 
-
-
 @media screen and (max-width: 850px) {
-
   .po__projects-head {
     gap: 6px;
   }
@@ -217,11 +214,9 @@
   .po__projects-cards__projectcard-text__links {
     gap: 20px;
   }
-
 }
 
 @media screen and (max-width: 770px) {
-
   .po__projects-head {
     gap: 5px;
   }
@@ -258,5 +253,107 @@
   .po__projects-cards__projectcard-text__links {
     gap: 18px;
   }
+}
+
+@media screen and (max-width: 465px) {
   
+  .po__projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 7rem;
+    color: var(--basic-light-gray, #c5c5c5);
+    font-family: Inter;
+    padding-bottom: 3.5rem;
+  }
+
+  .po__projects-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .po__projects-head {
+    gap: 4px;
+  }
+
+  .po__projects-head__heading {
+    align-self: center;
+    font-size: 30px;
+  }
+
+  .po__projects-head__subheading {
+    font-size: 12px;
+    color: #696969;
+  }
+
+  .po__projects-cards {
+    gap: 2.5rem;
+  }
+  
+  .po__projects-cards__projectcard {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: auto;
+    /* padding: 10px 36px; */
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 22px;
+  }
+  
+  .po__projects-cards__projectcard-img {
+    width: 300px;
+    height: 200px;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+  .po__projects-cards__projectcard-img img {
+    border-radius: 1.2rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .po__projects-cards__projectcard-text {
+    width: 260px;
+    padding-top: 15px;
+    gap: 0px;
+  }
+
+
+  .po__projects-cards__projectcard-text__heading {
+    font-size: 20px;
+  }
+
+  .po__projects-cards__projectcard-text__subheading {
+    font-size: 8.5px;
+  }
+
+  .po__projects-cards__projectcard-text__links {
+    gap: 15px;
+    padding-left: 0px;
+  }
+
+  .po__projects-cards__projectcard-text__links .code {
+    font-size: 12px;
+  }
+  
+  .po__projects-cards__projectcard-text__links .live-demo {
+    font-size: 12px;
+  }
+  
+  .po__projects-cards__projectcard-text__links img {
+    padding-left: 5px;
+  }
+  
+  .po__projects-cards__projectcard-text__links .github {
+    height: 13px;
+  }
+  
+  .po__projects-cards__projectcard-text__links .external {
+    height: 12px;
+  }
+
 }
