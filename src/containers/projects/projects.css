@@ -217,8 +217,46 @@
   .po__projects-cards__projectcard-text__links {
     gap: 20px;
   }
-  
+
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
+
+  .po__projects-head {
+    gap: 5px;
+  }
+
+  .po__projects-head__heading {
+    font-size: 40px;
+  }
+
+  .po__projects-head__subheading {
+    font-size: 15px;
+  }
+
+  .po__projects-cards__projectcard {
+    width: 690px;
+    height: 265px;
+    padding: 10px 36px;
+    border-radius: 28px;
+  }
+
+  .po__projects-cards__projectcard-img {
+    width: 500px;
+    height: 300px;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+
+  .po__projects-cards__projectcard-text__heading {
+    font-size: 23px;
+  }
+
+  .po__projects-cards__projectcard-text__subheading {
+    font-size: 10px;
+  }
+
+  .po__projects-cards__projectcard-text__links {
+    gap: 18px;
+  }
+  
 }
