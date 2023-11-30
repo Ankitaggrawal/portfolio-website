@@ -90,8 +90,14 @@ const Projects = () => {
                 </a>
               </div>
               <div className="live-demo">
-                <p>Live Demo</p>
-                <img src={external} alt="external" className="external" />
+              <a
+                  href="https://real-estate-page-frontend-ankit-kumars-projects-3ee83ec7.vercel.app/"
+                  target="_blank"
+                  className="live-demo"
+                >
+                  <p>Live Demo</p>
+                  <img src={external} alt="external" className="external" />
+                </a>
               </div>
             </div>
           </div>
@@ -125,8 +131,14 @@ const Projects = () => {
                 </a>
               </div>
               <div className="live-demo">
-                <p>Live Demo</p>
-                <img src={external} alt="external" className="external" />
+              <a
+                  href="https://modern-restaurant-website-ankit-kumars-projects-3ee83ec7.vercel.app/"
+                  target="_blank"
+                  className="live-demo"
+                >
+                  <p>Live Demo</p>
+                  <img src={external} alt="external" className="external" />
+                </a>
               </div>
             </div>
           </div>
@@ -161,8 +173,14 @@ const Projects = () => {
                 </a>
               </div>
               <div className="live-demo">
-                <p>Live Demo</p>
-                <img src={external} alt="external" className="external" />
+              <a
+                  href="https://modern-bank-web-application-ankit-kumars-projects-3ee83ec7.vercel.app/"
+                  target="_blank"
+                  className="live-demo"
+                >
+                  <p>Live Demo</p>
+                  <img src={external} alt="external" className="external" />
+                </a>
               </div>
             </div>
           </div>
