@@ -38,8 +38,14 @@ const Projects = () => {
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
-                <p>code</p>
-                <img src={github} alt="github" className="github" />
+                <a
+                  href="https://github.com/Ankitaggrawal/GPT-Website"
+                  target="_blank"
+                  className="code"
+                >
+                  <p>code</p>
+                  <img src={github} alt="github" className="github" />
+                </a>
               </div>
               <div className="live-demo">
                 <p>Live Demo</p>
@@ -68,8 +74,14 @@ const Projects = () => {
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
-                <p>code</p>
-                <img src={github} alt="github" className="github" />
+                <a
+                  href="https://github.com/Ankitaggrawal/real-estate-page-frontend"
+                  target="_blank"
+                  className="code"
+                >
+                  <p>code</p>
+                  <img src={github} alt="github" className="github" />
+                </a>
               </div>
               <div className="live-demo">
                 <p>Live Demo</p>
@@ -97,8 +109,14 @@ const Projects = () => {
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
-                <p>code</p>
-                <img src={github} alt="github" className="github" />
+                <a
+                  href="https://github.com/Ankitaggrawal/modern-restaurant-website"
+                  target="_blank"
+                  className="code"
+                >
+                  <p>code</p>
+                  <img src={github} alt="github" className="github" />
+                </a>
               </div>
               <div className="live-demo">
                 <p>Live Demo</p>
@@ -127,8 +145,14 @@ const Projects = () => {
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
-                <p>code</p>
-                <img src={github} alt="github" className="github" />
+                <a
+                  href="https://github.com/Ankitaggrawal/Modern_Bank_Web_Application"
+                  target="_blank"
+                  className="code"
+                >
+                  <p>code</p>
+                  <img src={github} alt="github" className="github" />
+                </a>
               </div>
               <div className="live-demo">
                 <p>Live Demo</p>
