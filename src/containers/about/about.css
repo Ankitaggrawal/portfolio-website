@@ -127,7 +127,6 @@
 }
 
 .po__about-aboutme__text-subheading p img {
-  /* padding-top: 4px; */
   transform: translateY(12px);
   flex-shrink: 0;
   width: 50px;
@@ -138,13 +137,14 @@
   width: 600px;
   height: auto;
   flex-shrink: 0;
-  color: #808080;
+  color: rgb(129, 129, 129);
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  letter-spacing: -0.34px;
+  font-weight: 400;
+  line-height: 21px;
+  /* letter-spacing: -0.34px; */
+  
 }
 
 @media screen and (max-width: 850px) {

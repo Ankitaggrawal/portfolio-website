@@ -30,9 +30,11 @@ const Projects = () => {
               GPT3
             </div>
             <div className="po__projects-cards__projectcard-text__subheading">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took
+              Developed an intuitive and responsive user interface for the GPT-3
+              powered application, ensuring seamless interaction and optimal
+              user experience. Implemented cutting-edge frontend technologies,
+              including HTML5, CSS, and JavaScript frameworks, to create a
+              dynamic and visually appealing interface of GPT.
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
@@ -59,9 +61,10 @@ const Projects = () => {
               REAL STATE
             </div>
             <div className="po__projects-cards__projectcard-text__subheading">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took
+              Real-estate-page-frontend , Building a responsive and dynamic real
+              estate frontend with React to provide an immersive user
+              experience. Leveraging React's component-based architecture for
+              seamless integration and optimal performance.
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
@@ -88,9 +91,9 @@ const Projects = () => {
               RESTAURANT
             </div>
             <div className="po__projects-cards__projectcard-text__subheading">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took
+              Devloped a Restaurant responsive and dynamic Web page with ReactJS
+              and Vanilla CSS, ensuring seamless interaction and appealing user
+              experience.
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">
@@ -117,9 +120,10 @@ const Projects = () => {
               BANKING
             </div>
             <div className="po__projects-cards__projectcard-text__subheading">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took
+              The modern bank web application, powered by React and Tailwind
+              CSS, offers a seamless and intuitive user experience. Its sleek
+              interface and responsive design ensure efficient navigation and a
+              visually appealing banking experience for users.
             </div>
             <div className="po__projects-cards__projectcard-text__links">
               <div className="code">

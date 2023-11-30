@@ -38,10 +38,14 @@ const About = () => {
             </p>
           </div>
           <div className="po__about-aboutme__text-dec">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I'm a Junior Front-End Developer with an amazing toolkit of HTML,
+            CSS, JavaScript, tailwind and ReactJs. Creating and managing
+            user-friendly, responsive websites is what I love to
+            do. enthusiastic about UI/UX. I have over a year of programming
+            expertise with the HTML, CSS, JS, and ReactJS framework. I'm also
+            now honing my NextJS skills. Along with being a good team player, I
+            enjoy working with diverse teams to create amazing online web
+            applications.
           </div>
         </div>
       </div>

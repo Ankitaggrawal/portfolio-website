@@ -28,11 +28,11 @@
 
 .po__projects-head__subheading {
   /* width: 732px; */
-  color: var(--basic-medium-gray, rgba(128, 128, 128, 0.5));
+  color: var(--basic-medium-gray, rgba(209, 209, 209, 0.5));
   font-family: Inter;
-  font-size: 19px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: -0.456px;
 }
@@ -92,7 +92,7 @@
   align-items: center;
   height: auto;
   width: 350px;
-  padding: 2rem;
+  padding: 0.7rem;
   gap: 12px;
 }
 
@@ -109,14 +109,14 @@
 
 .po__projects-cards__projectcard-text__subheading {
   overflow: hidden;
-  color: var(--basic-dark-gray, #d2d2d2);
+  color: var(--basic-dark-gray, #e2e2e2);
   text-overflow: ellipsis;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 13.5px;
   font-style: normal;
   font-weight: 200;
-  line-height: normal;
-  text-align: center;
+  line-height: 17px;
+  text-align: justify;
 }
 
 .po__projects-cards__projectcard-text__links {
