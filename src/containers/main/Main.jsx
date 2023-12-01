@@ -14,9 +14,11 @@ const main = () => {
           A front-end web Developer and UI/UX designer
         </p>
         <div className="po__main-buttons">
-          <button>See my Resume</button>
           <button>
-          <a href="#contact">Get in touch</a>
+            <a href="https://github.com/Ankitaggrawal" target="_blank">My GitHub</a>
+          </button>
+          <button>
+            <a href="#contact">Get in touch</a>
           </button>
         </div>
       </div>
@@ -31,7 +33,7 @@ const main = () => {
         </p>
         <div className="po__main-buttonsMobile">
           <button>
-          <a href="https://github.com/Ankitaggrawal">GitHub</a>
+          <a href="https://github.com/Ankitaggrawal" target="_blank">My GitHub</a>
           </button>
           <button>
           <a href="#contact">Get in touch</a>
