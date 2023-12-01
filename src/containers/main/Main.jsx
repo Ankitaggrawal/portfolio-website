@@ -30,7 +30,9 @@ const main = () => {
           A front-end web Developer and UI/UX designer
         </p>
         <div className="po__main-buttonsMobile">
-          <button>See my Resume</button>
+          <button>
+          <a href="https://github.com/Ankitaggrawal">GitHub</a>
+          </button>
           <button>
           <a href="#contact">Get in touch</a>
           </button>
